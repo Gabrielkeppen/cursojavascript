@@ -2,13 +2,11 @@
     <head>
         <title>Aulas de Javascript</title>
         <script>
-            i = 2;
-
-            while (i<10){
-                console.log("passo :" + i)
-                i = i + i;
+            function calcularDiaria() { 
+            return Math.round(2000/30);
             }
-            alert (i);
+            var diaria = calcularDiaria();
+            alert (diaria);
         </script>
     </head>
     <body>
